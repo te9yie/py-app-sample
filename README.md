@@ -1,6 +1,6 @@
 # Python で GitHub からインストールできるアプリをつくる
 
-- `poetry`を使ってみる
+- `poetry` を使ってみる
   - `python -m pip install poetry`
   - `poetry new py-app-sample`
   - `cd py-app-sample`
