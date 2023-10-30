@@ -17,4 +17,11 @@ py-app-sample = "py_app_sample.__main__:main"
 ```
 
 - `poetry install` を実行すると `py-app-sample` で実行できる状態になった
-- この状態で `__main__.py` を編集して `py-app-sample` を実行するとちゃんと変更が反映された
+  - この状態で `__main__.py` を編集して `py-app-sample` を実行するとちゃんと変更が反映された
+  - `poetry install` はデフォルトで編集可能モードでインストールされる
+  - `pip install -e .` と同じような振る舞い
+- `python -m py_app_sample` でも実行できる（ハイフンはアンダースコアに置換）
+
+## GitHub からインストールする
+
+- `pip install git+https://github.com/te9yie/py-app-sample.git` でインストールできるようになった
