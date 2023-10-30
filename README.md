@@ -1,4 +1,4 @@
-# Python で GihHub からインストールできるアプリをつくる
+# Python で GitHub からインストールできるアプリをつくる
 
 - `poetry`を使ってみる
   - `python -m pip install poetry`
